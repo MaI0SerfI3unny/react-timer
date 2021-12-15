@@ -1,0 +1,44 @@
+.App {
+  margin: 10px 20px;
+  display: flex;
+}
+
+button {
+  margin: 5px;
+  color: white !important;
+}
+
+.timer_container{
+  display: flex;
+  width: 320px;
+  align-items: center;
+  font-size: 30px;
+  padding: 10px 0;
+  border: 1px solid grey;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.buttonPanel{
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  width: 100px;
+  background: red;
+}
+
+.timer_item{
+  background: grey;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  min-width: 90px;
+  min-height: 90px;
+  color: white;
+}
+
+h3{
+  font-size: 40px;
+}
